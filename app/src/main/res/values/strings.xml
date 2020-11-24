@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AgendaExamen</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellidos">Apellidos</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_fechanacimiento">Fecha Nacimiento</string>
+    <string name="hint_localidad">Localidad</string>
+    <string name="hint_calle">Calle</string>
+    <string name="hint_numero">Numero</string>
+    <string name="str_cancelar">Cancelar</string>
+    <string name="str_Actualizar">Actualizar</string>
+    <string name="str_listaContactos">Lista Completa de Contactos</string>
+    <string name="str_content">Es un boton flotante</string>
+</resources>
