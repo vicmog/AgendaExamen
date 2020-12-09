@@ -33,7 +33,6 @@ public class miRecyclerViewAdapter extends RecyclerView.Adapter<miRecyclerViewAd
 
 private List<Contacto> listaContactos;
 private Context contexto;
-private int posicionItem;
 private AgendaViewModel viewmodel;
 private Contacto c = new Contacto();
 
@@ -65,7 +64,7 @@ private Contacto c = new Contacto();
         holder.parent_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                posicionItem = position;
+
                 c = listaContactos.get(position);
 
                 showMenu(v);

@@ -82,8 +82,9 @@ public class ActivityAdd extends AppCompatActivity {
 
     }
     private void volverMain(){
-        Intent intentMain = new Intent(this,MainActivity.class);
-        startActivity(intentMain);
+        /*Intent intentMain = new Intent(this,MainActivity.class);
+        startActivity(intentMain);*/
+        finish();
     }
 
     private boolean validaFormulario(){

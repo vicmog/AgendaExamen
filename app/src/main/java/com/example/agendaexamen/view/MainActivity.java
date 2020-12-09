@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         viewModel.getAllContactos().observe(this, new Observer<List<Contacto>>() {
             @Override
             public void onChanged(List<Contacto> contactos) {
-               lista =new ArrayList<>();
+               lista = new ArrayList<>();
                 for (int i = 0; i < contactos.size(); i++) {
 
                     lista.add(contactos.get(i));
